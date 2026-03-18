@@ -1,1 +1,17 @@
-No code
+# Core application dependencies
+fastapi
+uvicorn
+pydantic
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# Context builder dependencies
+tiktoken
+GitPython
+
+# Testing and benchmarking dependencies
+# In a real project, these would be in a separate requirements-dev.txt
+pytest
+pytest-benchmark
+faker
