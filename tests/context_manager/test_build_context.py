@@ -5,6 +5,7 @@ from git import Repo
 
 from backend.app.context_manager import build_context
 
+
 @pytest.fixture
 def mock_workspace():
     with tempfile.TemporaryDirectory() as tmpdir:
